@@ -16,6 +16,15 @@
 		83D2932129DAD14D0020E3A8 /* FirebaseAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D2932029DAD14D0020E3A8 /* FirebaseAuthManager.swift */; };
 		83D2932329DAD1670020E3A8 /* FirestoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D2932229DAD1670020E3A8 /* FirestoreManager.swift */; };
 		83D2932529DAD17B0020E3A8 /* FirebaseStorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D2932429DAD17B0020E3A8 /* FirebaseStorageManager.swift */; };
+		83D2932729DAD5580020E3A8 /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D2932629DAD5580020E3A8 /* Venue.swift */; };
+		83D2932929DAD8710020E3A8 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D2932829DAD8710020E3A8 /* Review.swift */; };
+		83D2932B29DAD9B40020E3A8 /* UserGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D2932A29DAD9B40020E3A8 /* UserGroup.swift */; };
+		83D2932F29DADADF0020E3A8 /* VenueListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D2932E29DADADF0020E3A8 /* VenueListView.swift */; };
+		83D2933129DADAF50020E3A8 /* UserGroupListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D2933029DADAF50020E3A8 /* UserGroupListView.swift */; };
+		83D2933329DADB060020E3A8 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D2933229DADB060020E3A8 /* UserProfileView.swift */; };
+		83D2933529DADB150020E3A8 /* VenueListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D2933429DADB150020E3A8 /* VenueListViewModel.swift */; };
+		83D2933729DADB250020E3A8 /* UserGroupListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D2933629DADB250020E3A8 /* UserGroupListViewModel.swift */; };
+		83D2933929DADB340020E3A8 /* UserProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D2933829DADB340020E3A8 /* UserProfileViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +39,15 @@
 		83D2932029DAD14D0020E3A8 /* FirebaseAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthManager.swift; sourceTree = "<group>"; };
 		83D2932229DAD1670020E3A8 /* FirestoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreManager.swift; sourceTree = "<group>"; };
 		83D2932429DAD17B0020E3A8 /* FirebaseStorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseStorageManager.swift; sourceTree = "<group>"; };
+		83D2932629DAD5580020E3A8 /* Venue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
+		83D2932829DAD8710020E3A8 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		83D2932A29DAD9B40020E3A8 /* UserGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserGroup.swift; sourceTree = "<group>"; };
+		83D2932E29DADADF0020E3A8 /* VenueListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueListView.swift; sourceTree = "<group>"; };
+		83D2933029DADAF50020E3A8 /* UserGroupListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserGroupListView.swift; sourceTree = "<group>"; };
+		83D2933229DADB060020E3A8 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		83D2933429DADB150020E3A8 /* VenueListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueListViewModel.swift; sourceTree = "<group>"; };
+		83D2933629DADB250020E3A8 /* UserGroupListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserGroupListViewModel.swift; sourceTree = "<group>"; };
+		83D2933829DADB340020E3A8 /* UserProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +106,9 @@
 			children = (
 				83D2931929DACDFE0020E3A8 /* User.swift */,
 				83D2931B29DACE1C0020E3A8 /* Event.swift */,
+				83D2932629DAD5580020E3A8 /* Venue.swift */,
+				83D2932829DAD8710020E3A8 /* Review.swift */,
+				83D2932A29DAD9B40020E3A8 /* UserGroup.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -95,6 +116,7 @@
 		83D2930229DACAFD0020E3A8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				83D2932C29DADABC0020E3A8 /* Group */,
 				83D2931829DACCB80020E3A8 /* Settings */,
 				83D2931729DACCAD0020E3A8 /* Referral */,
 				83D2931629DACCA60020E3A8 /* Venue */,
@@ -112,6 +134,7 @@
 		83D2930329DACB0A0020E3A8 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				83D2932D29DADAC90020E3A8 /* Group */,
 				83D2930E29DACBB20020E3A8 /* Settings */,
 				83D2930D29DACBA70020E3A8 /* Referral */,
 				83D2930C29DACB980020E3A8 /* Venue */,
@@ -146,6 +169,7 @@
 		83D2930629DACB540020E3A8 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				83D2933829DADB340020E3A8 /* UserProfileViewModel.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -188,6 +212,7 @@
 		83D2930C29DACB980020E3A8 /* Venue */ = {
 			isa = PBXGroup;
 			children = (
+				83D2933429DADB150020E3A8 /* VenueListViewModel.swift */,
 			);
 			path = Venue;
 			sourceTree = "<group>";
@@ -216,6 +241,7 @@
 		83D2931029DACC700020E3A8 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				83D2933229DADB060020E3A8 /* UserProfileView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -258,6 +284,7 @@
 		83D2931629DACCA60020E3A8 /* Venue */ = {
 			isa = PBXGroup;
 			children = (
+				83D2932E29DADADF0020E3A8 /* VenueListView.swift */,
 			);
 			path = Venue;
 			sourceTree = "<group>";
@@ -274,6 +301,22 @@
 			children = (
 			);
 			path = Settings;
+			sourceTree = "<group>";
+		};
+		83D2932C29DADABC0020E3A8 /* Group */ = {
+			isa = PBXGroup;
+			children = (
+				83D2933029DADAF50020E3A8 /* UserGroupListView.swift */,
+			);
+			path = Group;
+			sourceTree = "<group>";
+		};
+		83D2932D29DADAC90020E3A8 /* Group */ = {
+			isa = PBXGroup;
+			children = (
+				83D2933629DADB250020E3A8 /* UserGroupListViewModel.swift */,
+			);
+			path = Group;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -347,10 +390,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				83D2931C29DACE1C0020E3A8 /* Event.swift in Sources */,
+				83D2933929DADB340020E3A8 /* UserProfileViewModel.swift in Sources */,
+				83D2933129DADAF50020E3A8 /* UserGroupListView.swift in Sources */,
+				83D2933729DADB250020E3A8 /* UserGroupListViewModel.swift in Sources */,
+				83D2932729DAD5580020E3A8 /* Venue.swift in Sources */,
+				83D2932929DAD8710020E3A8 /* Review.swift in Sources */,
 				83D2932329DAD1670020E3A8 /* FirestoreManager.swift in Sources */,
+				83D2933329DADB060020E3A8 /* UserProfileView.swift in Sources */,
 				83D292F429DACA3C0020E3A8 /* SprkVybeApp.swift in Sources */,
 				83D2931E29DACF180020E3A8 /* ContentView.swift in Sources */,
+				83D2933529DADB150020E3A8 /* VenueListViewModel.swift in Sources */,
+				83D2932B29DAD9B40020E3A8 /* UserGroup.swift in Sources */,
 				83D2931A29DACDFE0020E3A8 /* User.swift in Sources */,
+				83D2932F29DADADF0020E3A8 /* VenueListView.swift in Sources */,
 				83D2932529DAD17B0020E3A8 /* FirebaseStorageManager.swift in Sources */,
 				83D2932129DAD14D0020E3A8 /* FirebaseAuthManager.swift in Sources */,
 			);
