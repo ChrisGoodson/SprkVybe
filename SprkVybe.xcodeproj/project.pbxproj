@@ -13,6 +13,9 @@
 		83D2931A29DACDFE0020E3A8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D2931929DACDFE0020E3A8 /* User.swift */; };
 		83D2931C29DACE1C0020E3A8 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D2931B29DACE1C0020E3A8 /* Event.swift */; };
 		83D2931E29DACF180020E3A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D292F529DACA3C0020E3A8 /* ContentView.swift */; };
+		83D2932129DAD14D0020E3A8 /* FirebaseAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D2932029DAD14D0020E3A8 /* FirebaseAuthManager.swift */; };
+		83D2932329DAD1670020E3A8 /* FirestoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D2932229DAD1670020E3A8 /* FirestoreManager.swift */; };
+		83D2932529DAD17B0020E3A8 /* FirebaseStorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D2932429DAD17B0020E3A8 /* FirebaseStorageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		83D2931929DACDFE0020E3A8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		83D2931B29DACE1C0020E3A8 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		83D2931F29DAD06F0020E3A8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		83D2932029DAD14D0020E3A8 /* FirebaseAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthManager.swift; sourceTree = "<group>"; };
+		83D2932229DAD1670020E3A8 /* FirestoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreManager.swift; sourceTree = "<group>"; };
+		83D2932429DAD17B0020E3A8 /* FirebaseStorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseStorageManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +129,9 @@
 		83D2930429DACB280020E3A8 /* FirebaseHelpers */ = {
 			isa = PBXGroup;
 			children = (
+				83D2932029DAD14D0020E3A8 /* FirebaseAuthManager.swift */,
+				83D2932229DAD1670020E3A8 /* FirestoreManager.swift */,
+				83D2932429DAD17B0020E3A8 /* FirebaseStorageManager.swift */,
 			);
 			path = FirebaseHelpers;
 			sourceTree = "<group>";
@@ -338,9 +347,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				83D2931C29DACE1C0020E3A8 /* Event.swift in Sources */,
+				83D2932329DAD1670020E3A8 /* FirestoreManager.swift in Sources */,
 				83D292F429DACA3C0020E3A8 /* SprkVybeApp.swift in Sources */,
 				83D2931E29DACF180020E3A8 /* ContentView.swift in Sources */,
 				83D2931A29DACDFE0020E3A8 /* User.swift in Sources */,
+				83D2932529DAD17B0020E3A8 /* FirebaseStorageManager.swift in Sources */,
+				83D2932129DAD14D0020E3A8 /* FirebaseAuthManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
