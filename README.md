@@ -1,6 +1,6 @@
 # SprkVybe - Connect, Discover, Experience
 
-SprkVybe is a social app designed to connect users with similar interests and facilitate social experiences. The app enables users to discover and connect with others who share common hobbies, interests, and passions, offering a personalized feed of events, venues, and other social opportunities in their local area based on their interests, activity history, and location.
+SprkVybe is a social app designed to connect users with similar interests and facilitate social experiences. The app enables users to discover and connect with others who share common hobbies, interests, and passions, offering a personalized feed of events, venues, and other social opportunities in their local area based on their interests, activity history, and location. Users can find or create groups to go out with, making it perfect for those new to the area or those looking to expand their social circle.
 
 ## Table of Contents
 
