@@ -17,7 +17,11 @@ SprkVybe is a social app designed to connect users with similar interests and fa
 ## Features
 
 SprkVybe offers an extensive set of features designed to provide users with an engaging and interactive social experience. Key features include:
-
+- Discover local bars, clubs, pubs, and other venues with details like crowd age, music type, food availability, dress code, and more
+- Find or create groups to go out with, catering to those new to an area or looking to expand their social circle
+- User profiles showcasing preferences and interests for going out
+- Vetting and flagging of troublesome users for enhanced safety
+- Social features requiring ID verification
 - Personalized event recommendations
 - Advanced matching algorithms
 - User profiles with customizable preferences
